@@ -5,6 +5,7 @@ import Header2 from './My components/Header2';
 import Header1 from './My components/Header1';
 import Footer from './My components/Footer';
 import Poster from './My components/Poster'
+import Menu from './My components/Menu1';
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
     <div className="App">
       <Header1 />
       <Header2 />
-      <Poster/>
+      <Poster />
+      <Menu />
+      <Menu />
       <Footer />
 
       <h1>running</h1>
