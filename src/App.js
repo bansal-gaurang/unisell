@@ -15,7 +15,7 @@ function App() {
       <Header2 />
       <Poster />
       <Menu />
-      <Menu />
+      
       <Footer />
 
       <h1>running</h1>
