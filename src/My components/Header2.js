@@ -5,7 +5,7 @@ const header2 =() =>
 {
     return (
   <div className='parent-div' style={{margin: "auto" }}>
-    <nav className="navbar navbar-expand bg-warning mt-3 mb-3">
+    <nav className="navbar navbar-expand bg-warning mt-3 mb-3 sticky-top" >
    <div classNameName="container-fluid" >
     
     <div className="collapse navbar-collapse" id="navbarSupportedContent" >

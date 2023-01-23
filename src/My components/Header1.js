@@ -2,7 +2,7 @@ import React from "react";
 
 const header1 = () => {
   return (
-    <nav class="navbar bg-info mx-10" >
+    <nav class="navbar bg-info sticky-top py-0" >
       <div class="container-fluid">
         <ul>
           <img
