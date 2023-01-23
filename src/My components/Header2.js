@@ -4,14 +4,14 @@ import "../My components/Header2.css"
 const header2 =() => 
 {
     return (
-  <div className='parent-div'>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary" >
-  <div classNameName="container-fluid" >
+  <div className='parent-div' style={{margin: "auto" }}>
+    <nav className="navbar navbar-expand bg-warning mt-3 mb-3">
+   <div classNameName="container-fluid" >
     
     <div className="collapse navbar-collapse" id="navbarSupportedContent" >
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/#">Medicines</a>
+          <a className="nav-link active" text-light aria-current="page" href="/#">Medicines</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" href="/#">Electronics</a>
@@ -30,7 +30,7 @@ const header2 =() =>
     </div>
   </div>
 
-</nav>
+ </nav>
 </div>
     );
 };
