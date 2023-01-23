@@ -15,10 +15,7 @@ function App() {
       <Header2 />
       <Poster />
       <Menu />
-      
       <Footer />
-
-      <h1>running</h1>
     </div>
   );
 }
